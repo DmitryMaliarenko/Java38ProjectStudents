@@ -1,42 +1,72 @@
 package com.company;
 
+import com.company.model.Dog;
+import com.company.model.Raccoon;
+import com.company.util.Converter;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
 public class Main {
 
     public static void main(String[] args) {
 
-        String group = "Java38";
-        int course = 1;
-        System.out.println("Группа: " + group + "\n" + "Курс: " + course + " курс\n");
 
-        Address[] address = new Address[6];
-        Address aTIvanova = new Address("Минск", "Гурской", 20, 18);
-        Address aTPetrova = new Address("Минск", "Цикало", 78, 3);
-        Address aSGolubev = new Address("Гродно", "Ленина", 2, 7);
-        Address aSZaharenko = new Address("Брест", "Советская", 15, 84);
-        Address aSTkach = new Address("Витебск", "Гинтовта", 16, 3);
-        Address aSGunko = new Address("Гомель", "Веры Хоружей", 129, 34);
+        Converter<String, Integer> converter = el -> el.toString();
 
-        Teacher[] teacher = new Teacher[2];
-        Teacher ivanova = new Teacher("Наждежда", "Иванова", 35, aTIvanova);
-        Teacher petrova = new Teacher("Татьяна", "Петрова", 27, aTPetrova);
-        teacher[0] = ivanova;
-        teacher[1] = petrova;
-        for (Teacher t : teacher) {
-            t.displayInfo();
-        }
-        System.out.println();
+        int age = 45;
+        String ageStr = converter.convert(age);
 
-        Student[] student = new Student[4];
-        Student golubev = new Student("Иван", "Голубев", 18, aSGolubev);
-        Student zaharenko = new Student("Андрей", "Захаренко", 18, aSZaharenko);
-        Student tkach = new Student("Александр", "Ткач", 19, aSTkach);
-        Student gunko = new Student("Виталий", "Гунько", 18, aSGunko);
-        student[0] = golubev;
-        student[1] = zaharenko;
-        student[2] = tkach;
-        student[3] = gunko;
-        for (Student s : student) {
-            s.displayInfo();
-        }
+        Converter<Raccoon, Dog> dogConverter = dog -> new Raccoon(dog.getName(), dog.getAge(), "Grey");
+
+        Dog dog = new Dog("Шарик", 10, 10);
+        Raccoon raccoon = dogConverter.convert(dog);
+
+        System.out.println(raccoon.getColor() + " " + raccoon.getName() + " " + raccoon.getAge());
+
+        List<String> strings = new ArrayList<>();
+        strings.add("new");
+        strings.add("hello");
+        strings.add("by");
+        strings.forEach(s -> {
+            if(s.length() == 3) {
+                System.out.println(s);
+            }
+        });
+
+        strings.stream()                              //терминальный
+                .filter(s -> s.length() == 3)
+                .forEach(s -> System.out.println(s));
+
+
+        Stream<String> listStream = strings.stream() //промежуточный
+                .filter(s -> s.length() == 3);
+
+
+
+        List<Dog> dogs = new ArrayList<>();
+        dogs.add(dog);
+        List<Raccoon> raccoonList = dogs.stream()
+        dogs.stream()
+                .map(dog1 -> dogConverter.convert(dog1))
+                .collect(Collectors.toList());
+
+
+
+//        System.out.println(Converter.isElement("111"));
+//
+//        String b = "qwerty";
+//        Integer c = 5;
+//        Object o;
+//
+//
+//        print(b);
+//        print(c);
+//    }
+//
+//    public static void print(Object o) {
+//        System.out.println(o);
     }
 }

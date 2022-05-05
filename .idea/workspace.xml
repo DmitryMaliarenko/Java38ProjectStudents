@@ -2,15 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="abff6106-7315-4845-8a6a-1cda06b43cdd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/model/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/model/Raccoon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/util/Converter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/ArrayToString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/IsPrime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/OverloadMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Recursion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Sort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Address.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/model/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/model/Raccoon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/util/Converter.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Teacher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/model/Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/model/Raccoon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/util/Converter.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +144,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="feature/lesson10-classWork" />
+                        <option value="feature/lesson5-homeWork" />
                       </list>
                     </value>
                   </entry>

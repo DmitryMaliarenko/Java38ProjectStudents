@@ -1,42 +1,97 @@
 package com.company;
 
+import com.company.base.Box;
+import com.company.model.Car;
+import com.company.model.Room;
+import com.company.util.MaxPowerCarComparator;
+
+import java.math.BigDecimal;
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.List;
+
 public class Main {
 
     public static void main(String[] args) {
+        BigDecimal bigDecimal1 = BigDecimal.valueOf(10.180);
+        BigDecimal bigDecimal2 = BigDecimal.valueOf(10.165);
 
-        String group = "Java38";
-        int course = 1;
-        System.out.println("Группа: " + group + "\n" + "Курс: " + course + " курс\n");
+        System.out.println(bigDecimal1.equals(bigDecimal2));
 
-        Address[] address = new Address[6];
-        Address aTIvanova = new Address("Минск", "Гурской", 20, 18);
-        Address aTPetrova = new Address("Минск", "Цикало", 78, 3);
-        Address aSGolubev = new Address("Гродно", "Ленина", 2, 7);
-        Address aSZaharenko = new Address("Брест", "Советская", 15, 84);
-        Address aSTkach = new Address("Витебск", "Гинтовта", 16, 3);
-        Address aSGunko = new Address("Гомель", "Веры Хоружей", 129, 34);
+        System.out.println(bigDecimal1.compareTo(bigDecimal2));
 
-        Teacher[] teacher = new Teacher[2];
-        Teacher ivanova = new Teacher("Наждежда", "Иванова", 35, aTIvanova);
-        Teacher petrova = new Teacher("Татьяна", "Петрова", 27, aTPetrova);
-        teacher[0] = ivanova;
-        teacher[1] = petrova;
-        for (Teacher t : teacher) {
-            t.displayInfo();
+        if (bigDecimal1.compareTo(bigDecimal2) == 0) {
+            System.out.println("они равны");
         }
+
+        Car car1 = new Car("gray", 250, "Ford");
+        Car car2 = new Car("red", 300, "Opel");
+        Car car3 = new Car("green", 200, "Oka");
+        Car car4 = new Car("green", 100, "Oka");
+        Car car5 = new Car("ellow", 300, "Opel");
+        Car car6 = new Car("black", 350, "Ford");
+        Car car7 = new Car("black", 300, "Ford");
+
+        System.out.println(car1);
+
         System.out.println();
 
-        Student[] student = new Student[4];
-        Student golubev = new Student("Иван", "Голубев", 18, aSGolubev);
-        Student zaharenko = new Student("Андрей", "Захаренко", 18, aSZaharenko);
-        Student tkach = new Student("Александр", "Ткач", 19, aSTkach);
-        Student gunko = new Student("Виталий", "Гунько", 18, aSGunko);
-        student[0] = golubev;
-        student[1] = zaharenko;
-        student[2] = tkach;
-        student[3] = gunko;
-        for (Student s : student) {
-            s.displayInfo();
-        }
+        List<Car> cars = new ArrayList<Car>() {{
+            add(car1);
+            add(car2);
+            add(car3);
+            add(car4);
+            add(car5);
+            add(car6);
+            add(car7);
+        }};
+
+        cars.stream().sorted().forEach(car -> System.out.println(car));
+
+        System.out.println();
+
+        Comparator powerComparator = new MaxPowerCarComparator();
+        cars.stream().sorted(powerComparator).forEach(car -> System.out.println(car));
+
+        System.out.println();
+
+//        cars.stream().sorted().forEach(car -> {
+//            System.out.println(car);
+//            //можно добавлять еще команды
+//        });
+
+//        List<Integer> numbers = new ArrayList<Integer>() {{
+//            add(3);
+//            add(10);
+//            add(8);
+//            add(6);
+//        }};
+//        numbers.stream().sorted().forEach(n -> System.out.println(n));
+        Room room1 = new Room(2000, 3000, 2700);
+        Room room2 = new Room(2500, 4000, 2650);
+        Room room3 = new Room(3000, 3500, 2500);
+
+        List<Room> rooms = new ArrayList<Room>() {{
+            add(room1);
+            add(room2);
+            add(room3);
+        }};
+
+        rooms.stream().sorted().forEach(room -> System.out.println(room));
+
+        System.out.println();
+
+        Box<String> boxString = new Box<>("Hello");
+        System.out.println(boxString.getT());
+
+        Box<Integer> boxInteger = new Box<>(45);
+        System.out.println(boxInteger.getT());
+
+        List<Box> boxes = new ArrayList<Box>() {{
+            add(boxString);
+            add(boxInteger);
+        }};
+        boxes.stream().filter(b -> b.getT().equals("Hello")).forEach(b -> System.out.println(b));
+
     }
 }

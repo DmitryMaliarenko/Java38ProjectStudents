@@ -1,8 +1,17 @@
 package com.company;
 
+import com.company.model.Address;
+import com.company.model.Student;
+import com.company.model.Teacher;
+import com.company.repository.GroupRepository;
+import com.company.service.GroupService;
+
 public class Main {
 
     public static void main(String[] args) {
+
+        GroupRepository groupRepository = new GroupRepository();
+        GroupService groupService = new GroupService(groupRepository);
 
         String group = "Java38";
         int course = 1;

@@ -1,0 +1,19 @@
+<changelist name="Uncommitted_changes_before_Checkout_at_12_05_2022_17_45_[Changes]1" date="1652370324130" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_05_2022_17_45_[Changes]1/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 12.05.2022 17:45 [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Java38ProjectStudents/com/company/Teacher.class" />
+    <option name="AFTER_PATH" value="out/production/Java38ProjectStudents/com/company/Teacher.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_05_2022_17_45_[Changes]1/Teacher.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Java38ProjectStudents/com/company/Student.class" />
+    <option name="AFTER_PATH" value="out/production/Java38ProjectStudents/com/company/Student.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_05_2022_17_45_[Changes]1/Student.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/Java38ProjectStudents/com/company/Main.class" />
+    <option name="AFTER_PATH" value="out/production/Java38ProjectStudents/com/company/Main.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_05_2022_17_45_[Changes]1/Main.class" />
+  </binary>
+</changelist>

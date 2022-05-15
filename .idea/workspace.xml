@@ -2,11 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="abff6106-7315-4845-8a6a-1cda06b43cdd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/com/company/TeacherTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/Main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/Main$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/Main$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/Main$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/Main$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/Main$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/model/Group.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/model/People.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/model/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/model/Teacher.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/repository/GroupRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/repository/StudentRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/repository/TeacherRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/service/GroupService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/service/StudentService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/service/TeacherService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/model/People.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/repository/StudentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/repository/TeacherRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/service/TeacherService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java38ProjectStudents.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java38ProjectStudents.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/Teacher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/Teacher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/model/Address.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/Teacher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java38ProjectStudents/test/com/company/TeacherTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java38ProjectStudents/test/com/company/TeacherTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/model/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/model/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/model/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/company/TeacherTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/company/TeacherTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +43,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -84,7 +111,6 @@
     </panes>
   </component>
   <component name="ProjectViewState">
-    <option name="flattenPackages" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
@@ -106,7 +132,7 @@
       <recent name="com.company" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TeacherTest.finalSalary">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="Java38ProjectStudents" />
@@ -151,9 +177,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.TeacherTest.finalSalary" />
         <item itemvalue="JUnit.TeacherTest.setAge" />
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main" />
       </list>

@@ -1,6 +1,7 @@
 package test.com.company;
 
 import com.company.model.Address;
+import com.company.model.People;
 import com.company.model.Teacher;
 import org.junit.*;
 
@@ -8,12 +9,14 @@ import static org.junit.Assert.assertTrue;
 
 public class TeacherTest {
 
-    Teacher teacher1;
+    Teacher ivanova;
+    People pTIvanova;
 
     @Before
     public void setUp() throws Exception {
         Address aTIvanova = new Address("Минск", "Гурской", 20, 18);
-        teacher1 = new Teacher("Наждежда", "Иванова", 35, aTIvanova);
+        pTIvanova = new People("Наждежда", "Иванова", 35, aTIvanova);
+        ivanova = new Teacher(pTIvanova);
 
     }
 
@@ -29,22 +32,23 @@ public class TeacherTest {
         double k = 1.23;
         int workDay = 21;
         int allDay = 21;
-        teacher1.setSalary(salary);
-        teacher1.setAllDay(allDay);
-        teacher1.setK(k);
-        teacher1.setWorkDay(workDay);
+        ivanova.setSalary(salary);
+        ivanova.setAllDay(allDay);
+        ivanova.setK(k);
+        ivanova.setWorkDay(workDay);
 
         double zp = salary * k * workDay / allDay;
-        double teacherRez = teacher1.finalSalary();
+        double teacherRez = ivanova.finalSalary();
         assertTrue("не равно",zp == teacherRez);
     }
 
     @Test
     public void setAge() {
 //        Address aTIvanova = new Address("Минск", "Гурской", 20, 18);
-//        Teacher teacher1 = new Teacher("Наждежда", "Иванова", 35, aTIvanova);
-        teacher1.setAge(-50);
+//        People pTIvanova = new People("Наждежда", "Иванова", 35, aTIvanova);
+//        Teacher ivanova = new Teacher(pTIvanova);
+        pTIvanova.setAge(-50);
 
-        assertTrue("11111",teacher1.getAge() == 35);
+        assertTrue("11111",pTIvanova.getAge() == 35);
     }
 }

@@ -1,42 +1,49 @@
 package com.company;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Random;
+
 public class Main {
 
     public static void main(String[] args) {
-
-        String group = "Java38";
-        int course = 1;
-        System.out.println("Группа: " + group + "\n" + "Курс: " + course + " курс\n");
-
-        Address[] address = new Address[6];
-        Address aTIvanova = new Address("Минск", "Гурской", 20, 18);
-        Address aTPetrova = new Address("Минск", "Цикало", 78, 3);
-        Address aSGolubev = new Address("Гродно", "Ленина", 2, 7);
-        Address aSZaharenko = new Address("Брест", "Советская", 15, 84);
-        Address aSTkach = new Address("Витебск", "Гинтовта", 16, 3);
-        Address aSGunko = new Address("Гомель", "Веры Хоружей", 129, 34);
-
-        Teacher[] teacher = new Teacher[2];
-        Teacher ivanova = new Teacher("Наждежда", "Иванова", 35, aTIvanova);
-        Teacher petrova = new Teacher("Татьяна", "Петрова", 27, aTPetrova);
-        teacher[0] = ivanova;
-        teacher[1] = petrova;
-        for (Teacher t : teacher) {
-            t.displayInfo();
+        List<Employee> employees = new ArrayList<>(Arrays.asList(
+                new Employee("Алексей","Платун", 30, "начальник", 2100),
+                new Employee("Владимир","Кадевич", 61, "ведущий инженер", 1900),
+                new Employee("Сергей","Телехович", 45, "мастер", 1500),
+                new Employee("Юрий","Иванов", 48, "ведущий технолог", 1800),
+                new Employee("Игорь","Горбель", 49, "технолог", 1700),
+                new Employee("Евгений","Чижик", 36, "технолог", 1600),
+                new Employee("Александр","Дашко", 60, "машинист", 1800),
+                new Employee("Андрей","Евженико", 48, "машинист", 1600),
+                new Employee("Виктор","Ершов", 42, "машинист", 1300),
+                new Employee("Михаил","Бруй", 50, "машинист", 1500),
+                new Employee("Роман","Горинов", 33, "машинист", 1100),
+                new Employee("Игорь","Новиков", 52, "машинист", 1700),
+                new Employee("Андрей","Бахта", 45, "машинист", 1400),
+                new Employee("Геннадий","Войтович", 46, "машинистк", 1600),
+                new Employee("Александр","Валевач", 51, "машинист", 1200)));
+        for (Employee e: employees) {
+            System.out.println(e + ", ");
         }
         System.out.println();
+        employees.stream()
+                .filter(e -> e.getSurName().indexOf("Е") == 0)
+                .forEach(e -> System.out.println(e));
+        System.out.println();
 
-        Student[] student = new Student[4];
-        Student golubev = new Student("Иван", "Голубев", 18, aSGolubev);
-        Student zaharenko = new Student("Андрей", "Захаренко", 18, aSZaharenko);
-        Student tkach = new Student("Александр", "Ткач", 19, aSTkach);
-        Student gunko = new Student("Виталий", "Гунько", 18, aSGunko);
-        student[0] = golubev;
-        student[1] = zaharenko;
-        student[2] = tkach;
-        student[3] = gunko;
-        for (Student s : student) {
-            s.displayInfo();
+        List<Integer> arrayList = new ArrayList<>();
+        Random random = new Random();
+        System.out.println("Исходный массив");
+        for (int i = 0; i < 20; i++) {
+            arrayList.add(random.nextInt(0, 100));
+            System.out.print(arrayList.get(i) + ", ");
         }
+        System.out.println("\n");
+        System.out.println("Отсортированный массив:");
+        arrayList.stream()
+                .sorted()
+                .forEach(e -> System.out.print(e + ", "));
     }
 }

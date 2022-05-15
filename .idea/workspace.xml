@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="abff6106-7315-4845-8a6a-1cda06b43cdd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/company/exception/WrongLoginException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/exception/WrongPasswordException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/util/LoginUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/util/PasswordUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Address.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Teacher.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +25,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="feature/lesson8-homeWork" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">

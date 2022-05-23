@@ -6,9 +6,9 @@ Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
 <+>UTF-8
 ===================================================================
 diff --git a/.idea/workspace.xml b/.idea/workspace.xml
---- a/.idea/workspace.xml	(revision a297bd463d9a8e8363414a4f98d465b3d9534645)
-+++ b/.idea/workspace.xml	(date 1651775173324)
-@@ -2,16 +2,7 @@
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -2,16 +2,8 @@
  <project version="4">
    <component name="ChangeListManager">
      <list default="true" id="abff6106-7315-4845-8a6a-1cda06b43cdd" name="Changes" comment="">
@@ -16,6 +16,7 @@ diff --git a/.idea/workspace.xml b/.idea/workspace.xml
 -      <change afterPath="$PROJECT_DIR$/src/com/company/model/Car.java" afterDir="false" />
 -      <change afterPath="$PROJECT_DIR$/src/com/company/model/Room.java" afterDir="false" />
 -      <change afterPath="$PROJECT_DIR$/src/com/company/util/MaxPowerCarComparator.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_05_05_2022_11_54__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_05_05_2022_11_54__Changes_.xml" afterDir="false" />
        <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
 -      <change beforePath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/Main.class" afterDir="false" />
 -      <change beforePath="$PROJECT_DIR$/src/com/company/Address.java" beforeDir="false" />

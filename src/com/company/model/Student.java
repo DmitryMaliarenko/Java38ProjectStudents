@@ -1,13 +1,27 @@
 package com.company.model;
 
-public class Student {
-    private People people;
+import com.company.base.People;
+import com.company.util.AgeUtil;
 
-    public Student(People people) {
-        this.people = people;
+public class Student extends People implements Comparable<Student> {
+    private Address address;
+
+    public Student(String name, String surName, int age, String gender, Address address) {
+        super(name, surName, age, gender);
+        AgeUtil.checkAgeStudent(age);
+        this.address = address;
     }
-    public void displayInfo() {
-        System.out.println("Студент:\n   " + people.displayInfo());
+
+    public Address getAddress() {
+        return address;
+    }
+
+    public String displayInfo() {
+        return "Студент: " + super.toString() + " " + address.displayInfo();
+    }
+
+    @Override
+    public int compareTo(Student o) {
+        return this.getName().compareTo(o.getName());
     }
 }
-

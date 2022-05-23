@@ -1,38 +1,43 @@
 package com.company.model;
 
-public class Teacher {
-    int salary = 1000;
-    double k = 1.23;
-    int workDay = 21;
-    int allDay = 21;
+import com.company.base.People;
+import com.company.repository.TeacherRepository;
+import com.company.util.AgeUtil;
 
-    public void setSalary(int salary) {
-        this.salary = salary;
+public class Teacher extends People implements Comparable<Teacher> {
+    TeacherRepository teacherRepository = new TeacherRepository();
+    private double zp;
+    private Address address;
+
+    public Teacher(String name, String surName, int age, String gender, Address address) {
+        super(name, surName, age, gender);
+        this.address = address;
+        if (age > 0) {
+            super.setAge(age);
+        } else {
+            super.setAge(1);
+        }
+        AgeUtil.checkAgeTeacher(age);
     }
 
-    public void setK(double k) {
-        this.k = k;
+    public void setZP(double zp) {
+        this.zp = zp;
     }
 
-    public void setWorkDay(int workDay) {
-        this.workDay = workDay;
-    }
-
-    public void setAllDay(int allDay) {
-        this.allDay = allDay;
-    }
-
-    private People people;
-
-    public Teacher(People people) {
-        this.people = people;
-    }
-    public void displayInfo() {
-        System.out.println("Преподаватель:\n   " + people.displayInfo());
-    }
-    public double finalSalary() {
-        double zp = salary * k * workDay / allDay;
-        System.out.println("Зарплата преподавателя: " + zp + " рублей");
+    public double getZP() {
         return zp;
+    }
+
+    public Address getAddress() {
+        return address;
+    }
+
+    public String displayInfo() {
+        return "Преподаватель: " + super.toString() + "\n" + address.displayInfo() + " " + "\nЗарплата: " + zp;
+    }
+
+    @Override
+    public int compareTo(Teacher o) {
+        return this.getName().compareTo(o.getName());
     }
 }

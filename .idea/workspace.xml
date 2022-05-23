@@ -2,37 +2,89 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="abff6106-7315-4845-8a6a-1cda06b43cdd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/Main$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/Main$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/Main$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/Main$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/Main$5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/Main$6.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/model/Group.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/model/People.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/model/Student.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/model/Teacher.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/repository/GroupRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/repository/StudentRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/repository/TeacherRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/service/GroupService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/service/StudentService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/service/TeacherService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/model/People.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/repository/StudentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/repository/TeacherRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/service/StudentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/service/TeacherService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_15_05_2022_14_02_[Changes]1/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_15_05_2022_14_02__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_15_05_2022_14_12_[Changes]/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_15_05_2022_14_12_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_15_05_2022_14_12__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Group.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Student.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Teacher.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/base/People.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/exception/AgeStudentException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/exception/AgeTeacherException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/exception/CourseException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/exception/GroupNameException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/exception/SalaryException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/exception/WorkDaysException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/model/Methodist.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/util/AgeUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/util/Converter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/util/GroupComparator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/util/GroupUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/util/MaxZPComparator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/util/SalaryUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/base/People.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/exception/AgeStudentException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/exception/AgeTeacherException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/exception/CourseException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/exception/GroupNameException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/exception/SalaryException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/exception/WorkDaysException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/model/Methodist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/repository/MethodistRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/service/MethodistService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/util/AgeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/util/Converter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/util/GroupComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/util/GroupUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/util/MaxZPComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/util/ParserUtilGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/util/ParserUtilStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/util/ParserUtilTeacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/util/SalaryUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/com/company/GroupTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/com/company/PeopleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/com/company/StudentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_08_05_2022_10_47_[Changes]/shelved.patch" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_15_05_2022_14_02_[Changes]/shelved.patch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_08_05_2022_10_47__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_05_2022_17_45_[Changes]1/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_05_2022_17_45_[Changes]1/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_05_2022_17_45_[Changes]1/Teacher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_05_2022_17_45_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_05_2022_17_45__Changes_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/model/Address.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/Main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/Main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/Main$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/Main$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/Main$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/Main$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/Main$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/Main$6.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/Teacher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java38ProjectStudents/test/com/company/TeacherTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java38ProjectStudents/test/com/company/TeacherTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/model/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/model/Address.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/model/Group.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/model/Group.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/model/People.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/model/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/model/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/model/Teacher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/model/Teacher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/repository/GroupRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/repository/GroupRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/repository/StudentRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/repository/StudentRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/repository/TeacherRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/repository/TeacherRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/service/GroupService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/service/GroupService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/service/StudentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/service/StudentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/service/TeacherService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java38ProjectStudents/com/company/service/TeacherService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java38ProjectStudents/test/com/company/TeacherTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/model/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/model/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/model/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/model/Group.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/model/People.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/model/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/model/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/model/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/repository/GroupRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/repository/GroupRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/repository/StudentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/repository/StudentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/repository/TeacherRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/repository/TeacherRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/service/GroupService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/service/GroupService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/service/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/service/TeacherService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/service/TeacherService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/com/company/TeacherTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/company/TeacherTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,6 +101,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="feature/lesson10-classWork" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -178,10 +235,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.TeacherTest.finalSalary" />
         <item itemvalue="JUnit.TeacherTest.setAge" />
+        <item itemvalue="JUnit.TeacherTest.finalSalary" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.TeacherTest.finalSalary" />
       </list>
     </recent_temporary>
   </component>

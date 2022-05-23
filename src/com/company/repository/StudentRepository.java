@@ -6,17 +6,21 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class StudentRepository {
-        private List<Student> students = new ArrayList<>();
+    private List<Student> students = new ArrayList<>();
 
-        public void removeStudents(List<Student> removeStudents) {
-            students.removeAll(removeStudents);
-        }
+    public void removeStudents(List<Student> removeStudents) {
+        students.remove(removeStudents);
+    }
 
-        public void addStudents(List<Student> newStudents) {
-            students.addAll(newStudents);
-        }
+    public void addStudents(List<Student> addStudents) {
+        students.addAll(addStudents);
+    }
 
-        public List<Student> getStudents() {
-            return students;
-        }
+    public void setStudents(List<Student> students) {
+        this.students = students;
+    }
+
+    public List<Student> getStudents() {
+        return students;
+    }
 }
